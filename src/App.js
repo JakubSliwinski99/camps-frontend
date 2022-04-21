@@ -1,10 +1,4 @@
 import './App.css';
-import { TitlePage } from './pages/title-page/title-page.tsx';
+import { EmployeesContainer } from './containers/employees-container.tsx';
 
-function App() {
-  return(
-    TitlePage()  
-  )
-}
-
-export default App;
+export const App = () => <EmployeesContainer/>

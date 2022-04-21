@@ -1,3 +1,0 @@
-interface AppState {
-    employees: EmployeesState
-}
